@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black; /* Black background */
+    color: white; /* White text */
+}
+
+.counter-container {
+    text-align: center;
+    background-color: black; /* Black background for the container */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.counter-container h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.count-display {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red; /* Red color for error */
+    display: none;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: white; /* White background for buttons */
+    color: black; /* Black text for buttons */
+    border: none;
+    border-radius: 3px;
+}
+
+#clear {
+    background-color: black; /* Black background for clear button */
+    color: white; /* White text for clear button */
+    border: 1px solid white; /* Optional: border to distinguish clear button */
+    display: none;
+}
